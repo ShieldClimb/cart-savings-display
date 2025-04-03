@@ -4,7 +4,7 @@ Donate link: https://shieldclimb.com/
 Tags: woocommerce cart savings, woocommerce checkout savings, display discounts in cart, woocommerce savings display, show total discount woocommerce
 Requires at least: 5.8
 Tested up to: 6.7
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires PHP: 7.2
 WC requires at least: 5.8
 WC tested up to: 9.7.1
@@ -32,6 +32,10 @@ See more via [this website](https://shieldclimb.com/free-woocommerce-plugins/car
 2. screenshot-2.png
 
 == ChangeLog ==
+
+= V1.0.1 =
+
+* Escape output for security compliance in WooCommerce cart savings display
 
 = V1.0.0 =
 
