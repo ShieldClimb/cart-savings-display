@@ -38,7 +38,7 @@ function shieldclimb_cart_savings_display() {
     }
 
     if ($discount_total > 0) {
-        echo '<tr><th>' . esc_html__('You Saved', 'woocommerce') . '</th><td data-title="' . esc_attr__('You Saved', 'woocommerce') . '">' . wp_kses_post(wc_price($discount_total + WC()->cart->get_discount_total())) . '</td></tr>';
+        echo '<tr><th>' . esc_html__('You Saved', 'shieldclimb-cart-savings-display') . '</th><td data-title="' . esc_attr__('You Saved', 'shieldclimb-cart-savings-display') . '">' . wp_kses_post(wc_price($discount_total + WC()->cart->get_discount_total())) . '</td></tr>';
     }
 }
 
