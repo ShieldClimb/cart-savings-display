@@ -38,6 +38,9 @@ ShieldClimb's **[Cart Savings Display](https://shieldclimb.com/free-woocommerce-
 
 ## 📜 Changelog
 
+### v1.0.2
+- Updated: Tested up to WordPress 6.8 and WooCommerce 9.8.1
+
 ### v1.0.1
 - Escape output for security compliance in WooCommerce cart savings display
 
